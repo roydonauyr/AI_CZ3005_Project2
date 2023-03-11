@@ -1,0 +1,38 @@
+true.
+
+[trace] 8 ?- trace.
+
+
+true.
+
+[trace] 8 ?- unethical(stevey).
+
+
+   Call: (10) unethical(stevey)
+   Unify: (10) unethical(stevey)
+   Call: (11) boss(stevey, _6224)
+   Unify: (11) boss(stevey, appy)
+   Exit: (11) boss(stevey, appy)
+   Call: (11) stolen(_7840, stevey)
+   Unify: (11) stolen(galacticaS3, stevey)
+   Exit: (11) stolen(galacticaS3, stevey)
+   Call: (11) product(galacticaS3, _9456)
+   Unify: (11) product(galacticaS3, sumsum)
+   Exit: (11) product(galacticaS3, sumsum)
+   Call: (11) rival(sumsum, appy)
+   Unify: (11) rival(sumsum, appy)
+   Call: (12) competitor(sumsum, appy)
+   Unify: (12) competitor(sumsum, appy)
+   Exit: (12) competitor(sumsum, appy)
+   Exit: (11) rival(sumsum, appy)
+   Exit: (10) unethical(stevey)
+true.
+
+[trace] 9 ?- nodebug.
+
+
+true.
+
+10 ?- noprotocol.
+
+
